@@ -3,7 +3,7 @@ Join With T H MAHIR
 
 <html>
   <head>
-    <title>Click me if you can</title>
+    <title>Join With T H MAHIR</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       html, body {
