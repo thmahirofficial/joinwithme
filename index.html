@@ -140,7 +140,7 @@
       const nocheat = () => button.textContent = 'ধরিত পাইল্লে ধর';
       const notouch = () => button.textContent = 'জয়েন';
 
-      button.addEventListener( 'click', event => button.textContent = 'ধরত পাইল্লে ধর' );
+      button.addEventListener( 'click', event => button.textContent = 'ধরিত পাইল্লে ধর' );
       button.addEventListener( 'keydown', event => { event.preventDefault(); nocheat(); } );
       button.click = nocheat;
 
