@@ -133,10 +133,10 @@
         button.style.boxShadow = `0px ${Math.abs(oy)}px ${Math.abs(oy)/radius*40}px rgba(0,0,0,0.15)`;
       } );
 
-      const nocheat = () => button.textContent = 'No cheating 🙅‍♂️';
-      const notouch = () => button.textContent = 'This thing doesn\'t work with touch 😢';
+      const nocheat = () => button.textContent = 'ধরিত পাইল্লে ধর';
+      const notouch = () => button.textContent = 'জয়েন';
 
-      button.addEventListener( 'click', event => button.textContent = 'ওররে..' );
+      button.addEventListener( 'click', event => button.textContent = 'ধরত পাইল্লে ধর' );
       button.addEventListener( 'keydown', event => { event.preventDefault(); nocheat(); } );
       button.click = nocheat;
 
